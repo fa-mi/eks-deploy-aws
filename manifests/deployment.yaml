@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: ikhsan #sesuaikan ns
+  name: fahmi-aws #sesuaikan ns
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-eks-pipeline-deployment
-  namespace: ikhsan #sesuaikan ns
+  namespace: fahmi-aws #sesuaikan ns
   labels:
     app: my-eks-pipeline-deployment
 spec:
